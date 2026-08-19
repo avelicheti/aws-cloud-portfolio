@@ -1,0 +1,209 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f7fa;
+color:#333;
+
+}
+
+header{
+
+background:#232F3E;
+color:white;
+
+padding:60px 20px;
+
+text-align:center;
+
+}
+
+header h1{
+
+font-size:48px;
+
+margin-bottom:15px;
+
+}
+
+header p{
+
+font-size:22px;
+
+margin-bottom:30px;
+
+}
+
+.buttons a{
+
+text-decoration:none;
+
+background:#FF9900;
+
+color:white;
+
+padding:12px 24px;
+
+margin:10px;
+
+border-radius:5px;
+
+display:inline-block;
+
+font-weight:bold;
+
+}
+
+.buttons a:hover{
+
+background:#ffb84d;
+
+}
+
+section{
+
+width:80%;
+
+margin:40px auto;
+
+}
+
+h2{
+
+margin-bottom:20px;
+
+color:#232F3E;
+
+}
+
+.skills{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
+.skills span{
+
+background:#FF9900;
+
+color:white;
+
+padding:10px 20px;
+
+border-radius:20px;
+
+}
+
+ul{
+
+line-height:2;
+
+}
+
+footer{
+
+background:#232F3E;
+
+color:white;
+
+text-align:center;
+
+padding:25px;
+
+margin-top:50px;
+
+}
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:#131A22;
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:25px;
+}
+
+.project-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.project-card:hover{
+transform:translateY(-6px);
+}
+
+.project-card h3{
+color:#FF9900;
+margin-bottom:10px;
+}
+
+section{
+padding:40px 0;
+}
+.cert-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+}
+
+.cert-logo{
+
+    width:auto;
+
+    height:auto;
+
+}
